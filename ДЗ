@@ -1,0 +1,39 @@
+Задача №1
+s = input()
+def hashtagGen(text):
+    return text.replace(" ", "")
+
+print(hashtagGen(s))
+
+Задача №2
+import random
+random.seed(int(input()))
+
+dice1 = random.randint(1,6)
+dice2 = random.randint(1,6)
+
+print(dice1)
+print(dice2)
+
+Задача №3
+temp = int(input())
+if temp >= 100:
+    print('Кипение')
+else:
+    print('-')
+
+Задача №4
+age = int(input('Возраст: '))
+name = input('Имя: ')
+
+if age >= 18:
+    print("Добро пожаловать,", name)
+else:
+    print("Извините")
+
+Задача №5
+humidity = int(input())
+if humidity >= 40 and humidity <= 60:
+    print('норма')
+else:
+    print('.')
